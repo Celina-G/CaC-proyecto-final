@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CAC-MOVIES</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://github.com/Celina-G/CaC-proyecto-final/blob/main/front-end/css/styles.css">
+
+</head>
+
+<body>
+
+  <!-- ENCABEZADO -->
+
+  <header class="container-fluid colorPrincipal">
+    <nav class="navbar navbar-expand-lg" id="menu" style="background-color: #9f3647;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span class="text-light fs-5 fw-bold">CAC-MOVIES</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+            <li class="nav-item flex-fill"></li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tendencias</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Registrarse</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Iniciar Sesión</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+
+  <div class="main-content">
+    <div class="d-flex w-100" id="algo">
+      <img
+        src="https://media.istockphoto.com/id/1372099741/es/foto/mujer-joven-viendo-video-a-pedido-en-su-televisor.jpg?s=612x612&w=0&k=20&c=0_PO_-96R0Ea8yAk_T0uVm5miqDg5gKOvnUcFcVmHmc="
+        alt="cine" width="100%" height=500rem>
+    </div>
+
+    <br>
+
+    <div class="container-fluid d-flex flex-wrap justify-content-center">
+      <div class="row w-100">
+        <p class="fw-bold fs-2 text-center">Encuentra películas</p>
+      </div>
+      <form class="row row-cols g-3 align-items-center" role="search">
+        <div class="col align-self-center"><input class="form-control me-2" type="search" placeholder="Search"
+            aria-label="Search"></div>
+        <div class="col-2"><button class="btn btn-outline-success" type="submit">Search</button></div>
+      </form>
+
+    </div>
+
+
+
+    <!--  CATALOGO TENDENCIAS PELICULAS -->
+
+    <div class="row">
+      <p class="fw-bold fs-1 text-center">Las Tendencias De Hoy</p>
+    </div>
+
+    <div class="container-fluid d-flex align-items justify-content-center flex-wrap">
+
+      <div class="col-1"> <p></p></div>
+      <div class="col-10"> 
+      <div class="row m-2 p-1 justify-content-center w-100 gx-4 gy-5">
+
+       
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jvn7wy3RSNEXnFSXLpH2of2LcV6.jpg"
+            class="img-fluid" alt="Toy Story (1995)" id="imgCatalogo">
+   
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jfjW3mQiCTL001ZVfUQ8bQ19zTD.jpg"
+            class="img-fluid" alt="SPY x FAMILY CÓDIGO: Blanco (2023)" id="imgCatalogo">
+
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cUZop9T440Bx25P8Ptc0qXkLYEa.jpg"
+            class="img-fluid" alt="El chico y la garza (2023)" id="imgCatalogo">
+  
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/b5Jb7GoQaqIXy4VEdnQa0UrQZI.jpg"
+            class="img-fluid" alt="El Gato con Botas: El último deseo (2022)" id="imgCatalogo">
+        
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/i3WnZpJkQYXXbSGplEGmyoyeskM.jpg"
+            class="img-fluid" alt="Zootrópolis (2016)" id="imgCatalogo">
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hIEKzq0klqtz1H3S7QxzH4mMbvT.jpg"
+            class="img-fluid" alt="Dune (2021)" id="imgCatalogo">
+
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9rk0NJXs1izgJPZwbkSrkiVFWMQ.jpg"
+            class="img-fluid" alt="Dune: Parte dos" id="imgCatalogo">
+
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ncKCQVXgk4BcQV6XbvesgZ2zLvZ.jpg"
+            class="img-fluid" alt="Oppenheimer (2023)" id="imgCatalogo">
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mu8LRWT9GHkfiyHm7kgxT6YNvMW.jpg"
+            class="img-fluid" alt="Late Night with the Devil (2024)" id="imgCatalogo">
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kr36D6FiF8mNrsPz4fL6OUAvrrJ.jpg"
+            class="img-fluid" alt="Liga de la Justicia" id="imgCatalogo">
+   
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/buSr2RIxzJ5Zh6dLaLBsqAdvz3I.jpg"
+            class="img-fluid" alt="Tenet (2020)" id="imgCatalogo">
+      
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xiMoqa0bmjuyuXYqKGwrTSJL8nI.jpg"
+            class="img-fluid" alt="Déjame salir (2017)" id="imgCatalogo">
+
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/v0eQLbzT6sWelfApuYsEkYpzufl.jpg"
+            class="img-fluid" alt="Joker (2019)" id="imgCatalogo">
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg"
+            class="img-fluid" alt="Thor: Ragnarok (2017)" id="imgCatalogo">
+   
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zS8BSQdbOesql0EWbs17kPvLoAT.jpg"
+            class="img-fluid" alt="Kung Fu Panda 4" id="imgCatalogo">
+      
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d79DeKDCgFOM23O8Dr6MELZVooY.jpg"
+            class="img-fluid" alt="Elemental (2023)" id="imgCatalogo">
+  
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8xYdzKvvmtY6UyHiBtvhO53zZ3h.jpg"
+            class="img-fluid" alt="Seven (1995)" id="imgCatalogo">
+     
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1YjDHBC4v2O7IQDKYAiM8fOxzf3.jpg"
+            class="img-fluid" alt="Donnie Darko (2001)" id="imgCatalogo">
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qDU7PMMVMxtFI5w95mXS3BjpODG.jpg"
+            class="img-fluid" alt="Civil War (2024)" id="imgCatalogo">
+
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/x3zlm6VxPvVrYWE3bHkYUQMR798.jpg"
+            class="img-fluid" alt="Fast & Furious X (2023)" id="imgCatalogo">
+
+
+      </div>
+
+    </div>
+
+    <div class="col-1"></div>
+    </div>
+
+    <!-- SLIDER DE IMAGENES -->
+
+    <div class="container-fluid">
+
+      <div class="row mt-5">
+        <p class="fw-bold fs-1 text-center">Las Mas Aclamadas</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-1">
+          <div class="col align-self-start"></div>
+        </div>
+
+        <div class="col-lg-10">
+          <div class="col flex-wrap align-self-center">
+            <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <div class="row d-flex flex-wrap justify-content-center">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/v0eQLbzT6sWelfApuYsEkYpzufl.jpg"
+                      class="img-fluid" alt="Joker (2019)" id="imgCarr">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kr36D6FiF8mNrsPz4fL6OUAvrrJ.jpg"
+                      class="img-fluid" alt="Liga de la Justicia" id="imgCarr">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mu8LRWT9GHkfiyHm7kgxT6YNvMW.jpg"
+                      class="img-fluid" alt="Late Night with the Devil (2024)" id="imgCarr">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <div class="row d-flex flex-wrap justify-content-center">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9rk0NJXs1izgJPZwbkSrkiVFWMQ.jpg"
+                      class="img-fluid" alt="Dune: Parte dos" id="imgCarr">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ncKCQVXgk4BcQV6XbvesgZ2zLvZ.jpg"
+                      class="img-fluid" alt="Oppenheimer (2023)" id="imgCarr">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/x3zlm6VxPvVrYWE3bHkYUQMR798.jpg"
+                      class="img-fluid" alt="Fast & Furious X (2023)" id="imgCarr">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <div class="row d-flex flex-wrap justify-content-center">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/diEeiB2DmZZadHISkg24RO2n0rT.jpg"
+                      class="img-fluid" alt="Migración. Un viaje patas arriba" id="imgCarr">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zS8BSQdbOesql0EWbs17kPvLoAT.jpg"
+                      class="img-fluid" alt="Kung Fu Panda 4" id="imgCarr">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d79DeKDCgFOM23O8Dr6MELZVooY.jpg"
+                      class="img-fluid" alt="Elemental (2023)" id="imgCarr">
+                  </div>
+                </div>
+
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-1">
+          <div class="col align-self-end"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <footer class="w-100 d-flex align-items justify-content-center flex-wrap colorPrincipal">
+    <div id="iconos">
+      <a href=""></a>
+    </div>
+    <p class="fs-5 px-1 pt-1" id="textoFooter">CAC-MOVIES &copy; Todos Los Derechos Reservados 2024</p>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
