@@ -18,6 +18,10 @@ p{
     background-color: #9f3647;
 }
 
+#imgPrincipal{
+    height:500rem
+}
+
 #menu a {
     font-size: 18px;
     font-weight: bold;
@@ -35,11 +39,14 @@ p{
 }
 
 @media (max-width: 768px) {
+    #imgPrincipal{
+        height:300rem
+    }
+    
     #imgCatalogo {
         width: 40%;
        height: auto;
     }
-
 }
 
 
